@@ -1,0 +1,6 @@
+# large / regenerable files
+data/DL_data.zip
+data/cache.npz
+__pycache__/
+.ipynb_checkpoints/
+*.pyc

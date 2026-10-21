@@ -1,0 +1,10 @@
+{
+  "split": {"train": 3500, "val": 750, "test": 750, "seed": 42},
+  "cnn_baseline": {"r2": 0.3590, "rmse": 2956390, "mae": 2106606, "regression_to_bin_acc": 0.5653, "direct_cls_acc": 0.496},
+  "dnn_ensemble_5_seeds": {"r2": 0.9456, "rmse": 861257, "mae": 563385, "regression_to_bin_acc": 0.7827, "direct_cls_acc": 0.6253},
+  "data_efficiency": {
+    "train_sizes": [500, 800, 1500, 2200, 2800, 3500],
+    "regression_to_bin_acc_pct": [57.2, 64.3, 68.5, 72.4, 76.5, 78.3],
+    "direct_cls_acc_pct": [39.6, 38.1, 48.9, 55.6, 60.5, 62.3]
+  }
+}
